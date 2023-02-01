@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 body{
@@ -105,7 +105,7 @@ h5{
 
 .section .box{
     border: 5px solid #3882f6;
-    border-radius: 40px;
+    border-radius: 20px;
     height: 250px;
     width: 250px;
     margin-bottom: 10px;
@@ -119,4 +119,70 @@ h5{
 
 .subtext p{
     text-align: center;
+}
+
+.quote{
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name{
+    width: 800px;
+    display: flex;
+    justify-content: end;
+}
+
+.name h5{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.cta{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .con{
+    width: 1100px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+.con .container{
+    color: #f9faf8;
+}
+.con button{
+    height: 40px;
+    border-style: none;
+    border: 1px solid #f9faf8;
+    background: none;
+    color: #f9faf8;
+    padding: 0 40px 0 40px;
+    border-radius: 10px;
+}
+
+.footer{
+    color: #f9faf8;
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
